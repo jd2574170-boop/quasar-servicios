@@ -93,12 +93,12 @@
             <q-avatar size="90px" class="q-mb-sm shadow-2">
               <img src="../img/enfermera.jpeg" alt="Maria Fernanda Gomez Reyes" />
             </q-avatar>
-            <div class="text-h6 text-weight-bold text-grey-9">Mafecita1118@gmail.com</div>
+            <div class="text-h6 text-weight-bold text-grey-9">María Fernanda Gómez Reyes </div>
             <q-chip color="primary" text-color="white" size="sm" class="q-mb-xs">Enfermera</q-chip>
             <q-separator class="q-my-sm" />
             <div class="row items-center justify-center text-grey-8">
               <q-icon name="email" color="primary" class="q-mr-xs" />
-              <a href="mailto:lvgomez@sena.edu.co" class="text-primary text-weight-bold text-caption">lvgomez@sena.edu.co</a>
+              <a href="mailto:lvgomez@sena.edu.co" class="text-primary text-weight-bold text-caption">Mafecita1118@gmail.com</a>
             </div>
           </q-card-section>
         </q-card>
