@@ -78,9 +78,19 @@
             <div>
               <div class="text-caption text-grey-7">Teléfono de Contacto</div>
               <div class="text-subtitle1 text-weight-bold text-primary">+57 322 303 8451</div>
+  
+              <q-item-section>
+      <q-item-label caption class="text-grey-7">Número de Ficha</q-item-label>
+      <q-item-label class="text-weight-bold text-primary text-subtitle1">
+        3410173
+      </q-item-label>
+    </q-item-section> 
+
             </div>
           </q-card-section>
         </q-card>
+
+
 
         <q-card flat bordered>
           <q-card-section class="bg-secondary text-white q-py-sm">
@@ -99,6 +109,7 @@
               <q-icon name="email" color="primary" class="q-mr-xs" />
               <a href="mailto:lcarreno@sena.edu.co" class="text-primary text-weight-bold text-caption">lcarreno@sena.edu.co</a>
             </div>
+            
           </q-card-section>
         </q-card>
       </div>
