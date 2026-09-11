@@ -5,7 +5,6 @@
       <q-toolbar>
         <q-btn dense flat round icon="menu" @click="toggleLeftDrawer" />
 
-        
         <q-avatar class="q-ml-sm" size="45px">
           <img src="./img/image.png" alt="Logo SENA" />
         </q-avatar>
@@ -17,17 +16,55 @@
     </q-header>
 
     <q-drawer v-model="leftDrawerOpen" side="left" overlay behavior="mobile" bordered>
-      <div class="q-pa-md q-gutter-y-sm">
-        <q-btn color="primary" label="Enfermería" to="/enfermeria" class="full-width" flat align="left" @click="toggleLeftDrawer" />
-        <q-btn color="primary" label="Bienestar" to="/bienestar" class="full-width" flat align="left" @click="toggleLeftDrawer" />
-        <q-btn color="primary" label="Biblioteca" to="/biblioteca" class="full-width" flat align="left" @click="toggleLeftDrawer" />
-        <q-btn color="primary" label="Cafetería" to="/cafeteria" class="full-width" flat align="left" @click="toggleLeftDrawer" />
-        <q-btn color="primary" label="Coordinación" to="/coordinacion" class="full-width" flat align="left" @click="toggleLeftDrawer" />
+      <q-list padding class="text-grey-8">
+        <q-item-label header class="text-weight-bold text-uppercase">
+          Menú Principal
+        </q-item-label>
+
+        <q-item clickable v-ripple to="/enfermeria" active-class="bg-blue-1 text-primary" @click="toggleLeftDrawer">
+          <q-item-section avatar>
+            <q-icon name="medical_services" color="primary" />
+          </q-item-section>
+          <q-item-section class="text-weight-medium">Enfermería</q-item-section>
+        </q-item>
+
+        <q-item clickable v-ripple to="/bienestar" active-class="bg-blue-1 text-primary" @click="toggleLeftDrawer">
+          <q-item-section avatar>
+            <q-icon name="sentiment_satisfied_alt" color="primary" />
+          </q-item-section>
+          <q-item-section class="text-weight-medium">Bienestar</q-item-section>
+        </q-item>
+
+        <q-item clickable v-ripple to="/biblioteca" active-class="bg-blue-1 text-primary" @click="toggleLeftDrawer">
+          <q-item-section avatar>
+            <q-icon name="local_library" color="primary" />
+          </q-item-section>
+          <q-item-section class="text-weight-medium">Biblioteca</q-item-section>
+        </q-item>
+
+        <q-item clickable v-ripple to="/cafeteria" active-class="bg-blue-1 text-primary" @click="toggleLeftDrawer">
+          <q-item-section avatar>
+            <q-icon name="local_cafe" color="primary" />
+          </q-item-section>
+          <q-item-section class="text-weight-medium">Cafetería</q-item-section>
+        </q-item>
+
+        <q-item clickable v-ripple to="/coordinacion" active-class="bg-blue-1 text-primary" @click="toggleLeftDrawer">
+          <q-item-section avatar>
+            <q-icon name="apartment" color="primary" />
+          </q-item-section>
+          <q-item-section class="text-weight-medium">Coordinación</q-item-section>
+        </q-item>
 
         <q-separator class="q-my-md" />
 
-        <q-btn color="secondary" label="Acerca de" to="/acerca" class="full-width" flat align="left" @click="toggleLeftDrawer" />
-      </div>
+        <q-item clickable v-ripple to="/acerca" active-class="bg-teal-1 text-secondary" @click="toggleLeftDrawer">
+          <q-item-section avatar>
+            <q-icon name="info" color="secondary" />
+          </q-item-section>
+          <q-item-section class="text-weight-medium">Acerca de</q-item-section>
+        </q-item>
+      </q-list>
     </q-drawer>
 
     <q-page-container>
