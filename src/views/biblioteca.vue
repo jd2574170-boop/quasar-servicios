@@ -76,7 +76,7 @@
             <q-avatar color="primary" text-color="white" icon="phone" size="40px" class="q-mr-md" />
             <div>
               <div class="text-caption text-grey-7">Teléfono de Contacto</div>
-              <div class="text-subtitle1 text-weight-bold text-primary">312 584 8032</div>
+              <div class="text-subtitle1 text-weight-bold text-primary">+57 312 584 8032</div>
             </div>
           </q-card-section>
         </q-card>

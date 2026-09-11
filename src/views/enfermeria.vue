@@ -76,7 +76,9 @@
             <q-avatar color="primary" text-color="white" icon="phone" size="40px" class="q-mr-md" />
             <div>
               <div class="text-caption text-grey-7">Teléfono de Contacto</div>
-              <div class="text-subtitle1 text-weight-bold text-primary">+57 607 724 8100 ext. 201</div>
+              <div class="text-subtitle1 text-weight-bold text-primary">+57 321
+                415
+                3995</div>
             </div>
           </q-card-section>
         </q-card>
@@ -89,10 +91,10 @@
           </q-card-section>
           <q-card-section class="text-center q-pa-md">
             <q-avatar size="90px" class="q-mb-sm shadow-2">
-              <img src="../img/enfermera.jpeg" alt="Laura Victoria Gómez" />
+              <img src="../img/enfermera.jpeg" alt="Maria Fernanda Gomez Reyes" />
             </q-avatar>
-            <div class="text-h6 text-weight-bold text-grey-9">Laura Victoria Gómez</div>
-            <q-chip color="primary" text-color="white" size="sm" class="q-mb-xs">Enfermera Jefe</q-chip>
+            <div class="text-h6 text-weight-bold text-grey-9">Mafecita1118@gmail.com</div>
+            <q-chip color="primary" text-color="white" size="sm" class="q-mb-xs">Enfermera</q-chip>
             <q-separator class="q-my-sm" />
             <div class="row items-center justify-center text-grey-8">
               <q-icon name="email" color="primary" class="q-mr-xs" />
