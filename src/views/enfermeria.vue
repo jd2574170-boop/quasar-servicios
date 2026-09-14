@@ -1,7 +1,6 @@
 <template>
   <q-page class="q-pa-md max-width-container">
 
-    
     <q-card flat class="q-mb-md overflow-hidden rounded-borders shadow-2">
       <q-img src="../img/enfermeria.jpeg" height="240px" fit="cover">
         <template v-slot:error>
@@ -76,9 +75,7 @@
             <q-avatar color="primary" text-color="white" icon="phone" size="40px" class="q-mr-md" />
             <div>
               <div class="text-caption text-grey-7">Teléfono de Contacto</div>
-              <div class="text-subtitle1 text-weight-bold text-primary">+57 321
-                415
-                3995</div>
+              <div class="text-subtitle1 text-weight-bold text-primary">+57 321 415 3995</div>
             </div>
           </q-card-section>
         </q-card>
@@ -98,7 +95,8 @@
             <q-separator class="q-my-sm" />
             <div class="row items-center justify-center text-grey-8">
               <q-icon name="email" color="primary" class="q-mr-xs" />
-              <a href="mailto:lvgomez@sena.edu.co" class="text-primary text-weight-bold text-caption">Mafecita1118@gmail.com</a>
+              <!-- Modificación: 'a' cambiado por 'span' para no activar aplicaciones de correo -->
+              <span class="text-primary text-weight-bold text-caption">Mafecita1118@gmail.com</span>
             </div>
           </q-card-section>
         </q-card>

@@ -4,7 +4,7 @@
       <q-img src="../img/coordinacion1.jpeg" height="240px" fit="cover">
         <template v-slot:error>
           <div class="absolute-full flex flex-center bg-grey-4 text-grey-8">
-            Imagen ../img/coordinacion1.jpeg no encontrada
+            
           </div>
         </template>
         <div class="absolute-bottom bg-gradient text-white q-pa-sm">
@@ -94,7 +94,7 @@
             <q-separator class="q-my-sm" />
             <div class="row items-center justify-center text-grey-8">
               <q-icon name="email" color="primary" class="q-mr-xs" />
-              <a href="mailto:lreinas@sena.edu.co" class="text-primary text-weight-bold text-caption">lreinas@sena.edu.co</a>
+              <span class="text-primary text-weight-bold text-caption">lreinas@sena.edu.co</span>
             </div>
           </q-card-section>
         </q-card>

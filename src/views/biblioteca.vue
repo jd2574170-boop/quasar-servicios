@@ -16,15 +16,10 @@
       </q-img>
     </q-card>
 
-    
-
-
     <div class="row items-center q-mb-md">
       <q-icon name="menu_book" color="primary" size="38px" class="q-mr-sm" />
       <h1 class="text-h4 text-weight-bolder text-primary q-my-none">Biblioteca</h1>
     </div>
-
-    
 
     <q-card flat bordered class="q-mb-lg bg-blue-1 border-blue">
       <q-card-section>
@@ -36,9 +31,6 @@
     </q-card>
 
     <div class="row q-col-gutter-md">
-      
-
-
       <div class="col-12 col-md-7">
         <q-card flat bordered class="full-height">
           <q-card-section class="bg-primary text-white q-py-sm">
@@ -69,7 +61,6 @@
         </q-card>
       </div>
 
-
       <div class="col-12 col-md-5">
         <q-card flat bordered class="q-mb-md bg-grey-2">
           <q-card-section class="row items-center q-py-sm">
@@ -96,7 +87,7 @@
             <q-separator class="q-my-sm" />
             <div class="row items-center justify-center text-grey-8">
               <q-icon name="email" color="primary" class="q-mr-xs" />
-              <a href="mailto:ymmartinez@sena.edu.co" class="text-primary text-weight-bold text-caption">ymmartinez@sena.edu.co</a>
+              <span class="text-primary text-weight-bold text-caption">ymmartinez@sena.edu.co</span>
             </div>
           </q-card-section>
         </q-card>

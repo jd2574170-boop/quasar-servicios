@@ -6,7 +6,7 @@
       <q-img src="../img/cafeteria.jpeg" height="240px" fit="cover">
         <template v-slot:error>
           <div class="absolute-full flex flex-center bg-grey-4 text-grey-8">
-            Imagen ../img/cafeteria.jpeg no encontrada
+            
           </div>
         </template>
         <div class="absolute-bottom bg-gradient text-white q-pa-sm">
@@ -80,17 +80,15 @@
               <div class="text-subtitle1 text-weight-bold text-primary">+57 322 303 8451</div>
   
               <q-item-section>
-      <q-item-label caption class="text-grey-7">Número de Ficha</q-item-label>
-      <q-item-label class="text-weight-bold text-primary text-subtitle1">
-        3410173
-      </q-item-label>
-    </q-item-section> 
+                <q-item-label caption class="text-grey-7">Número de Ficha</q-item-label>
+                <q-item-label class="text-weight-bold text-primary text-subtitle1">
+                  3410173
+                </q-item-label>
+              </q-item-section> 
 
             </div>
           </q-card-section>
         </q-card>
-
-
 
         <q-card flat bordered>
           <q-card-section class="bg-secondary text-white q-py-sm">
@@ -107,7 +105,7 @@
             <q-separator class="q-my-sm" />
             <div class="row items-center justify-center text-grey-8">
               <q-icon name="email" color="primary" class="q-mr-xs" />
-              <a href="mailto:lcarreno@sena.edu.co" class="text-primary text-weight-bold text-caption">lcarreno@sena.edu.co</a>
+              <span class="text-primary text-weight-bold text-caption">lcarreno@sena.edu.co</span>
             </div>
             
           </q-card-section>
