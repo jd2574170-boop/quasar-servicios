@@ -9,8 +9,8 @@ function persistirDatos() {
 }
 
 const preciosServicios = {
-  'Corte': 20000,
-  'Corte con tijera': 25000,
+  'Corte con maquina': 20000,
+  'corte con tijera': 25000,
   'Barba': 10000,
   'limpieza facial': 60000,
   'Cejas': 5000,
@@ -34,7 +34,15 @@ const metodoPago = ref('')
 const estadoPago = ref('')
 const observaciones = ref('')
 
-// Función normal para calcular el precio actual de los servicios seleccionados
+// Función para alternar el tipo de corte sin bloquear la selección
+function seleccionarServicio(nombreServicio) {
+  if (nombreServicio === 'Corte con maquina' && serviciosSeleccionados.value.includes('corte con tijera')) {
+    serviciosSeleccionados.value = serviciosSeleccionados.value.filter(s => s !== 'corte con tijera')
+  } else if (nombreServicio === 'corte con tijera' && serviciosSeleccionados.value.includes('Corte con maquina')) {
+    serviciosSeleccionados.value = serviciosSeleccionados.value.filter(s => s !== 'Corte con maquina')
+  }
+}
+
 function calcularPrecioActual() {
   return serviciosSeleccionados.value.reduce((total, servicio) => {
     return total + (preciosServicios[servicio] || 0)
@@ -399,6 +407,7 @@ function estrellas(numero) {
                   type="checkbox"
                   :value="nombreServicio"
                   v-model="serviciosSeleccionados"
+                  @change="seleccionarServicio(nombreServicio)"
                 >
                 <span>{{ nombreServicio }} <strong>({{ formatearMoneda(valorPrecio) }})</strong></span>
               </label>
@@ -500,7 +509,6 @@ function estrellas(numero) {
 </template>
 
 <style>
-/* Los estilos se mantienen intactos */
 * {
   box-sizing: border-box;
   margin: 0;
