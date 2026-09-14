@@ -3,7 +3,7 @@
   <q-page class="q-pa-md max-width-container">
     
     <q-card flat class="q-mb-md overflow-hidden rounded-borders shadow-2">
-      <q-img src="../img/biblioteca.jpeg" height="240px" fit="cover">
+      <q-img src="../img/biblioteca.jpeg" height="340px" fit="cover">
         <template v-slot:error>
           <div class="absolute-full flex flex-center bg-grey-4 text-grey-8">
            
