@@ -105,7 +105,7 @@
 </template>
 
 <style scoped>
-.max-width-container { max-width: 1000px; margin: 0 auto; }
+.max-width-container { max-width: 1800px; margin: 0 auto; }
 .leading-relaxed { line-height: 1.6; }
 .bg-gradient { background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%); }
 .border-blue { border-left: 5px solid #027be3; }
