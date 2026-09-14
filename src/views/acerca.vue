@@ -53,7 +53,7 @@
         </q-avatar>
 
         <div class="text-h6 text-weight-bold text-grey-9">
-          Jose Diaz
+          José Díaz
         </div>
 
         <div class="q-mt-xs q-mb-sm">
