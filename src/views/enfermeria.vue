@@ -95,7 +95,6 @@
             <q-separator class="q-my-sm" />
             <div class="row items-center justify-center text-grey-8">
               <q-icon name="email" color="primary" class="q-mr-xs" />
-              <!-- Modificación: 'a' cambiado por 'span' para no activar aplicaciones de correo -->
               <span class="text-primary text-weight-bold text-caption">Mafecita1118@gmail.com</span>
             </div>
           </q-card-section>

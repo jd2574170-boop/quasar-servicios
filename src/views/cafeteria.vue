@@ -1,7 +1,8 @@
 <!-- src/views/Cafeteria.vue -->
 <template>
   <q-page class="q-pa-md max-width-container">
-    <!-- Banner de Encabezado -->
+   
+
     <q-card flat class="q-mb-md overflow-hidden rounded-borders shadow-2">
       <q-img src="../img/cafeteria.jpeg" height="240px" fit="cover">
         <template v-slot:error>
@@ -16,13 +17,13 @@
       </q-img>
     </q-card>
 
-    <!-- Título Principal -->
+    
     <div class="row items-center q-mb-md">
       <q-icon name="local_cafe" color="primary" size="38px" class="q-mr-sm" />
       <h1 class="text-h4 text-weight-bolder text-primary q-my-none">Cafetería</h1>
     </div>
 
-    <!-- Descripción del Servicio -->
+    
     <q-card flat bordered class="q-mb-lg bg-blue-1 border-blue">
       <q-card-section>
         <div class="text-subtitle1 text-weight-bold text-primary q-mb-xs">Descripción del Servicio</div>
@@ -33,7 +34,8 @@
     </q-card>
 
     <div class="row q-col-gutter-md">
-      <!-- Horarios de Atención -->
+      
+
       <div class="col-12 col-md-7">
         <q-card flat bordered class="full-height">
           <q-card-section class="bg-primary text-white q-py-sm">
@@ -70,7 +72,8 @@
         </q-card>
       </div>
 
-      <!-- Contacto y Encargado -->
+      
+      
       <div class="col-12 col-md-5">
         <q-card flat bordered class="q-mb-md bg-grey-2">
           <q-card-section class="row items-center q-py-sm">

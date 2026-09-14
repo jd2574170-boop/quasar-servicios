@@ -1,5 +1,6 @@
 <template>
   <q-page class="q-pa-md max-width-container">
+    
     <q-card flat class="q-mb-md overflow-hidden rounded-borders shadow-2">
       <q-img src="../img/coordinacion1.jpeg" height="240px" fit="cover">
         <template v-slot:error>

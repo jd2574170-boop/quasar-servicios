@@ -1,7 +1,7 @@
 <template>
   <q-page class="q-pa-md q-pa-md-lg max-width-container">
     
-    <!-- Banner Principal -->
+    
     <q-card flat class="bg-primary text-white q-mb-lg rounded-borders shadow-2">
       <q-card-section class="text-center q-pa-lg">
         <q-avatar size="90px" class="bg-white q-mb-md">
@@ -12,7 +12,7 @@
       </q-card-section>
     </q-card>
 
-    <!-- Sección Acerca de -->
+    
     <q-card flat bordered class="q-mb-xl bg-grey-1">
       <q-card-section>
         <div class="text-h6 text-weight-bold text-primary q-mb-sm row items-center">
