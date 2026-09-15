@@ -78,7 +78,7 @@ import { ref } from 'vue'
 
 <style scoped>
 .max-width-container {
-  max-width: 1000px;
+  max-width: 1800px;
   margin: 0 auto;
 }
 

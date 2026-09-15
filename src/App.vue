@@ -58,7 +58,7 @@
 
         <q-separator class="q-my-md" />
 
-        <q-item clickable v-ripple to="/acerca" active-class="bg-teal-1 text-secondary" @click="toggleLeftDrawer">
+        <q-item clickable v-ripple to="/" active-class="bg-teal-1 text-secondary" @click="toggleLeftDrawer">
           <q-item-section avatar>
             <q-icon name="info" color="secondary" />
           </q-item-section>
