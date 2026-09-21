@@ -5,3 +5,5 @@ export default defineConfig({
   plugins: [vue()],
   base: '/'
 })
+
+// Quasar Servicios
